@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: 5% auto;
+
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    min-height: 30rem;
+    min-width: 20rem;
+    padding: 40px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: .75rem;
+    pointer-events: none;
+}
+
+.inner-carousel{
+    display: flex;
+}
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
